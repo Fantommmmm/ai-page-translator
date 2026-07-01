@@ -1,0 +1,14 @@
+name = "ai-page-translator-worker"
+main = "src/index.ts"
+compatibility_date = "2024-06-20"
+
+[vars]
+DEFAULT_SOURCE_LANGUAGE = "Chinese"
+DEFAULT_TARGET_LANGUAGE = "Russian"
+# Set these to your free/free-tier Qwen-compatible API values before enabling Qwen.
+# QWEN_ENDPOINT = "https://your-qwen-compatible-endpoint.example/v1/chat/completions"
+# QWEN_MODEL = "your-free-tier-qwen-model"
+
+# Optional: enable Workers AI by uncommenting after your Cloudflare account supports it.
+# [ai]
+# binding = "AI"
