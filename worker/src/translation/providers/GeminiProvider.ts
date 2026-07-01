@@ -2,7 +2,7 @@ import type { Env, ProviderResult, TranslateRequest } from "../../types";
 import { buildTranslationPrompt, parseTranslationsFromText } from "../../utils/prompt";
 import { assertTranslationCount, ensureFreeOnly, type TranslationProvider } from "./BaseProvider";
 
-const MODEL = "gemini-1.5-flash";
+const MODEL = "gemini-2.5-flash";
 
 export class GeminiProvider implements TranslationProvider {
   readonly name = "gemini-flash-free-tier";
