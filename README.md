@@ -1,2 +1,0 @@
-# ai-page-translator
-
