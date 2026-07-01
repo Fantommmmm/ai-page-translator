@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="popup.css"><title>AI Page Translator</title></head>
+<body>
+  <main>
+    <h1>AI Page Translator</h1>
+    <label>Worker URL<input id="workerUrl" type="url" placeholder="https://your-worker.workers.dev"></label>
+    <label>Source language<input id="sourceLanguage" value="Chinese"></label>
+    <label>Target language<input id="targetLanguage" value="Russian"></label>
+    <label>Mode<input id="mode" value="free-only" disabled></label>
+    <button id="save">Save settings</button>
+    <button id="translate">Translate page</button>
+    <button id="restore" class="secondary">Restore original</button>
+    <p id="status" role="status"></p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
